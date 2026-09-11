@@ -6,7 +6,7 @@ import serviceImg1 from '../assets/images/regenerated_image_1789114801600.jpg';
 import serviceImg2 from '../assets/images/regenerated_image_1789108903007.jpg';
 import serviceImg3 from '../assets/images/regenerated_image_1789113237607.jpg';
 import serviceImg4 from '../assets/images/regenerated_image_1789113239575.jpg';
-import serviceImg5 from '../assets/images/regenerated_image_1789113240593.jpg';
+import serviceImg5 from '../assets/images/regenerated_image_1789113240593.jpg.jpg';
 
 export default function ServiceCards() {
   return (
