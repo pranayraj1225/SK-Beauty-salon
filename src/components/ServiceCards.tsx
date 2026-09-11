@@ -2,7 +2,7 @@ import { motion } from 'motion/react';
 import { ArrowRight, Scissors, Sparkles, GraduationCap, UserCheck, Droplets, HandMetal, Brush } from 'lucide-react';
 import React from 'react';
 
-import serviceImg1 from '../assets/images/regenerated_image_1789108901628.avif';
+import serviceImg1 from '../assets/images/regenerated_image_1789114801600.jpg';
 import serviceImg2 from '../assets/images/regenerated_image_1789108903007.jpg';
 import serviceImg3 from '../assets/images/regenerated_image_1789113237607.jpg';
 import serviceImg4 from '../assets/images/regenerated_image_1789113239575.jpg';
