@@ -9,7 +9,6 @@ import TrustBar from './components/TrustBar';
 import About from './components/About';
 import ServiceCards from './components/ServiceCards';
 import ExperienceSection from './components/ExperienceSection';
-import StaffSpotlight from './components/StaffSpotlight';
 import CourseFeature from './components/CourseFeature';
 import Testimonials from './components/Testimonials';
 import ReviewWall from './components/ReviewWall';
@@ -32,7 +31,6 @@ export default function App() {
         <RevealSection><About /></RevealSection>
         <RevealSection><ServiceCards /></RevealSection>
         <RevealSection><ExperienceSection /></RevealSection>
-        <RevealSection><StaffSpotlight /></RevealSection>
         <RevealSection><CourseFeature /></RevealSection>
         <RevealSection><Testimonials /></RevealSection>
         <RevealSection><ReviewWall /></RevealSection>
