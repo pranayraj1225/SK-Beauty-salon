@@ -6,7 +6,6 @@ import serviceImg1 from '../assets/images/regenerated_image_1789114801600.jpg';
 import serviceImg2 from '../assets/images/regenerated_image_1789108903007.jpg';
 import serviceImg3 from '../assets/images/regenerated_image_1789113237607.jpg';
 import serviceImg4 from '../assets/images/regenerated_image_1789113239575.jpg';
-import serviceImg5 from '../assets/images/regenerated_image_1789113240593.jpg';
 
 export default function ServiceCards() {
   return (
@@ -74,7 +73,7 @@ export default function ServiceCards() {
             title="Professional Makeup"
             description="Expert makeup application for bridals, parties, and special events to make you look flawless."
             delay={0.4}
-            imgSrc={serviceImg5}
+            imgSrc="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
           />
           <ServiceCard 
             icon={<UserCheck size={24} strokeWidth={1.5} aria-hidden="true" />}
