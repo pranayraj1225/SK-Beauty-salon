@@ -12,7 +12,7 @@ export default function ReviewWall() {
 
   return (
     <div className="pb-24 bg-ivory overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-wrap justify-center gap-4">
+      <div className="w-full px-6 md:px-12 flex flex-wrap justify-center gap-4">
         {keywords.map((word, i) => (
           <div 
             key={i} 

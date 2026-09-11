@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="bg-charcoal border-t border-white/10 text-white pt-20 pb-10">
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+      <div className="w-full px-6 md:px-12">
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-2">
             <h3 className="font-sora font-bold tracking-widest uppercase text-xl mb-6">SK Beauty Salon</h3>

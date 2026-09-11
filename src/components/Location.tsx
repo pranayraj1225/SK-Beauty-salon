@@ -4,7 +4,7 @@ import { MapPin, Clock, Phone } from 'lucide-react';
 export default function Location() {
   return (
     <section id="contact" className="py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+      <div className="w-full px-6 md:px-12">
         <div className="grid lg:grid-cols-2 gap-16">
           
           {/* Info */}

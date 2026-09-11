@@ -1,7 +1,7 @@
 export default function TrustBar() {
   return (
     <div className="bg-ivory border-b border-charcoal/5 py-8 lg:py-12 relative z-20">
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+      <div className="w-full px-6 md:px-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 divide-x divide-charcoal/10">
           <div className="text-center px-4 flex flex-col items-center justify-center">
             <span className="text-3xl md:text-4xl font-bold text-charcoal font-sora mb-1 block">4.9★</span>

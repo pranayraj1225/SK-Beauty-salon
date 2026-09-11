@@ -5,7 +5,7 @@ import React from 'react';
 export default function About() {
   return (
     <section id="about" className="py-20 lg:py-32 bg-white">
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+      <div className="w-full px-6 md:px-12">
         {/* About Intro */}
         <div className="max-w-3xl mx-auto text-center mb-24">
           <motion.div

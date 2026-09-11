@@ -6,7 +6,21 @@ export default function Hero() {
     <section id="home" className="relative min-h-screen flex items-center pt-24 pb-12 lg:pt-0 lg:pb-0 overflow-hidden bg-charcoal">
       {/* Desktop Split Layout */}
       <div className="absolute inset-0 w-full h-full lg:flex hidden">
-        <div className="w-[45%] h-full bg-charcoal z-10 flex flex-col justify-center px-12 xl:px-24">
+        <div className="w-[50%] h-full bg-charcoal z-0"></div>
+        <div className="w-[50%] h-full relative z-0">
+          <div className="absolute inset-0 bg-charcoal/20 z-10"></div>
+          <img 
+            src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" 
+            alt="Luxurious Salon Interior" 
+            className="w-full h-full object-cover object-center grayscale-[20%]"
+            referrerPolicy="no-referrer"
+          />
+        </div>
+      </div>
+
+      {/* Desktop Content */}
+      <div className="relative z-10 hidden lg:flex w-full px-6 md:px-12 h-full items-center">
+        <div className="w-[50%] pr-12 xl:pr-24">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -42,15 +56,6 @@ export default function Hero() {
               <span>4.9 / 5 · 39 Google Reviews</span>
             </div>
           </motion.div>
-        </div>
-        <div className="w-[55%] h-full relative">
-          <div className="absolute inset-0 bg-charcoal/20 z-0"></div>
-          <img 
-            src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" 
-            alt="Luxurious Salon Interior" 
-            className="w-full h-full object-cover object-center grayscale-[20%]"
-            referrerPolicy="no-referrer"
-          />
         </div>
       </div>
 

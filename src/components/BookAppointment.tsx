@@ -46,7 +46,7 @@ export default function BookAppointment() {
 
   return (
     <section id="book" className="py-20 lg:py-32 bg-white">
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+      <div className="w-full px-6 md:px-12">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           
           {/* Text Content */}

@@ -41,7 +41,7 @@ export default function Navbar() {
           isScrolled ? 'bg-ivory/90 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
+        <div className="w-full px-6 md:px-12 flex justify-between items-center">
           <a href="#home" onClick={(e) => handleNavClick(e, '#home')} className="z-50">
             <h1 className={`font-sora font-bold tracking-tight uppercase transition-colors duration-300 ${isScrolled || isMobileMenuOpen ? 'text-charcoal text-xl' : 'text-white text-xl md:text-2xl drop-shadow-sm'}`} style={{ fontWeight: 'normal', fontFamily: 'Georgia' }}>
               SK Beauty Salon

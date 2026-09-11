@@ -5,7 +5,7 @@ import expImg2 from '../assets/images/regenerated_image_1789109011228.jpg';
 export default function ExperienceSection() {
   return (
     <section className="py-20 lg:py-32 bg-white overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+      <div className="w-full px-6 md:px-12">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           
           {/* Content */}
@@ -61,7 +61,7 @@ export default function ExperienceSection() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="absolute bottom-0 left-0 w-[55%] h-[45%] bg-white border-8 border-white z-20 shadow-2xl"
+              className="absolute bottom-0 left-0 sm:bottom-8 sm:left-8 w-[55%] sm:w-[45%] aspect-square bg-white border-8 border-white z-20 shadow-2xl"
             >
               <img 
                 src={expImg2} 

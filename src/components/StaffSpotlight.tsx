@@ -4,7 +4,7 @@ import { User2 } from 'lucide-react';
 export default function StaffSpotlight() {
   return (
     <section className="py-20 lg:py-24 bg-beige/30">
-      <div className="max-w-5xl mx-auto px-6 md:px-12">
+      <div className="w-full px-6 md:px-12">
         <div className="bg-white p-8 md:p-16 shadow-sm flex flex-col md:flex-row items-center gap-12 lg:gap-20">
           
           <motion.div 
@@ -12,10 +12,14 @@ export default function StaffSpotlight() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="w-48 h-48 md:w-64 md:h-64 shrink-0 bg-ivory rounded-full flex flex-col items-center justify-center border border-charcoal/10"
+            className="w-48 h-48 md:w-64 md:h-64 shrink-0 bg-ivory rounded-lg border border-charcoal/10"
           >
-            <User2 size={48} className="text-charcoal/20 mb-2"  aria-hidden="true" />
-            <span className="text-xs font-semibold text-charcoal/40 uppercase tracking-widest text-center px-4">Staff photo<br/>coming soon</span>
+            <img 
+              src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+              alt="Swetha" 
+              className="staff-image w-full h-full object-cover rounded-lg"
+              referrerPolicy="no-referrer"
+            />
           </motion.div>
           
           <motion.div
